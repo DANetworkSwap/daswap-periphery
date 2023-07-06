@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "evm": {
+    "bytecode": {
+      "linkReferences": {},
+      "object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122086808aa4936f1a3deef471d5dc79ca1afef175d56f09d15ae2e40a48e4313cf264736f6c63430006060033",
+      "opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP7 DUP1 DUP11 LOG4 SWAP4 PUSH16 0x1A3DEEF471D5DC79CA1AFEF175D56F09 0xD1 GAS 0xE2 0xE4 EXP 0x48 0xE4 BALANCE EXTCODECOPY CALLCODE PUSH5 0x736F6C6343 STOP MOD MOD STOP CALLER ",
+      "sourceMap": "282:1444:16:-:0;;132:2:-1;166:7;155:9;146:7;137:37;255:7;249:14;246:1;241:23;235:4;232:33;222:2;;269:9;222:2;293:9;290:1;283:20;323:4;314:7;306:22;347:7;338;331:24"
+    },
+    "deployedBytecode": {
+      "immutableReferences": {},
+      "linkReferences": {},
+      "object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122086808aa4936f1a3deef471d5dc79ca1afef175d56f09d15ae2e40a48e4313cf264736f6c63430006060033",
+      "opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP7 DUP1 DUP11 LOG4 SWAP4 PUSH16 0x1A3DEEF471D5DC79CA1AFEF175D56F09 0xD1 GAS 0xE2 0xE4 EXP 0x48 0xE4 BALANCE EXTCODECOPY CALLCODE PUSH5 0x736F6C6343 STOP MOD MOD STOP CALLER ",
+      "sourceMap": "282:1444:16:-:0;;;;;;12:1:-1;9;2:12"
+    }
+  },
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/libraries/UniswapV2OracleLibrary.sol\":\"UniswapV2OracleLibrary\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"@Daswap/core/contracts/interfaces/IUniswapV2Pair.sol\":{\"keccak256\":\"0xd9ca3431c7c608b6cb836c82fd841289f886a47e7c56d7031b6c307ac8bbdcbd\",\"urls\":[\"bzz-raw://3feef293ceb30bfc0439fe28514d2abd48b756a1fbe7081086466ede30803dd9\",\"dweb:/ipfs/QmPxM3t3FvHuFKHWmZ3qCF6NcNr9anFrXWiQEUyjRrQWhk\"]},\"@uniswap/lib/contracts/libraries/FixedPoint.sol\":{\"keccak256\":\"0xc671208d030ea70032b9fe0ac9c05d7dcd3ef2593a1a36e7e7f03bf25c2997c4\",\"urls\":[\"bzz-raw://5d5fac757d514b276ae2954b28048cc854dfbeed20706b784a0c2d3efa6af752\",\"dweb:/ipfs/QmVmSgZ8yN9wqV8wHWj8KhHYbi2LoK6pdPK1i1pBqFKcUc\"]},\"contracts/libraries/UniswapV2OracleLibrary.sol\":{\"keccak256\":\"0x3e33ab4b0fe9b95954a176539ddcffdd6f0e71376bf46588b85099da0121f545\",\"urls\":[\"bzz-raw://78f34f7009e4a1ab790a6efeebe9df495032d21deaa850d913b9fb9ad7230aff\",\"dweb:/ipfs/QmWvvwKAsuoupMvchgQJVxNLPTBHcmGJuTsRUhHNUAmZaJ\"]}},\"version\":1}",
+  "interface": [],
+  "bytecode": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122086808aa4936f1a3deef471d5dc79ca1afef175d56f09d15ae2e40a48e4313cf264736f6c63430006060033"
+}
